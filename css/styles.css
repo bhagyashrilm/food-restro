@@ -1,0 +1,163 @@
+body{
+    font-family: 'Montserrat';
+}
+
+.container-fluid{
+ padding:3% 20% 7% !important;
+}
+#title{
+    background-image:url('https://i.pinimg.com/564x/6e/58/1f/6e581fb70982e576c488457628c72604.jpg');
+    background-size: cover;
+}
+h1{
+    font-family:'Montserrat';
+    line-height: 1.5!important;
+    font-size: 3rem !important;
+    color: white !important;
+   
+
+}
+h2{
+    font-family: 'montserrat';
+    font-size:2.5rem !important;
+    line-height: 1.5rem;
+}
+h3{
+    font-family:'montserrat';
+    font-size: 1.45rem !important;
+   
+}
+h5{
+    color:#fff; 
+}
+
+/*navigation bar*/
+
+.navbar-brand{
+    font-family: "ubuntu";
+    font-size: 2.5rem;
+    font-weight:2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding :0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "ubuntu";
+
+}
+/* download button*/
+.download-button{
+margin:5% 3% 5% 0%;
+}
+/*Title image*/
+.title-image{
+    width:22%;
+    transform: rotate(25deg);
+    position:absolute;   
+  
+   padding-top: 20px;
+
+}
+
+/*features*/
+#features{
+    padding:7% 13%;
+    position: relative;
+    z-index: 1;
+
+}
+.feature-box p{
+    color:#8f8f8f;
+    padding:5%;
+}
+
+/*icon color*/
+.fa-solid{
+    color: #178b00fa;    
+}
+.fa-solid:hover{
+    color: #12540d;
+}
+/*Testimonials*/
+#testimonials{  
+    text-align: center;
+    background-image: url('https://assets-eu-01.kc-usercontent.com/559bb7d3-88a4-01c1-79a3-dd4d5b2d2bb0/9bdc0181-b0a0-49fa-91ca-15d11dbb66f8/Beetroot-Brownie_Header.jpg?w=1920&q=85&auto=format&lossless=1');
+    color: #fff;
+    background-size: cover;
+}
+.carousel-item{
+    padding:7% 13%;
+}
+.Testimonial-image{
+    width:10%;
+    border-radius: 100%;
+    margin:20px;
+}
+#press{
+    text-align: center;
+    padding:7% ;
+   
+}
+.press-logo{
+    border-radius: 100%;
+   height:220px;
+   width:220px;
+    margin:20px 20px 50px;
+}
+
+/*pricing section*/
+#pricing{
+    text-align: center;
+    background-image: url('https://matchthemes.com/demohtml/dina/images/home/about-4.jpg');
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pricing-column{
+    padding:3% 2%;
+}
+
+#cta{
+    text-align: center;
+    padding: 7% 15%;     
+
+}
+.cta-heading{
+    font-family: 'Montserrat';
+    font-size:3.5rem !important;
+    line-height: 1.5 !important;
+}
+
+#footer{
+    text-align: center;
+    padding:3% 15%;
+   background-image: url('https://i.pinimg.com/564x/6e/58/1f/6e581fb70982e576c488457628c72604.jpg');
+   background-size: cover;
+
+}
+#footer p{
+    color:#fff;
+}
+.social-icon{
+    margin:20px 10px;   
+    color:#fff;
+}
+
+
+
+@media (max-width:1028px)
+{
+    #title{
+        text-align:center;
+            }
+    .title-image{
+        position:static;
+        transform: rotate(0);
+        width:60%;
+    }
+}
